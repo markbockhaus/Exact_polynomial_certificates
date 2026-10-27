@@ -1,0 +1,49 @@
+# Parameters used to solve Problem (3)
+# n  = dimension
+# x0 = radius cutoff
+# d  = Gegenbauer degree
+# N  = kernel degree; the weight a(u) is fixed:
+#      a(u) = 1 + (2/3)u - (2/9)u^2  (8D_fixed_original.txt, 24D_fixed_original.txt)
+#      a(u) = 1 + (3/5)u - (9/50)u^2  (8D_fixed_extra.txt, 24D_fixed_extra.txt)
+#
+  n      x0    d   N  file
+  8    7/10   10   5  8D_fixed_original.txt
+  8    7/10   10   5  8D_fixed_extra.txt
+ 24    9/10   14   5  24D_fixed_original.txt
+ 24   23/25   12   5  24D_fixed_extra.txt
+
+# Parameters used to solve Problem (6)
+# n  = dimension
+# x0 = radius cutoff
+# d  = Gegenbauer degree
+# N  = kernel degree = weight degree
+#
+  n      x0    d   N  file
+  3    3/10   10   5  3D.txt
+  4   12/25   10   5  4D.txt
+  5     3/5   10   5  5D.txt
+  6     2/3   10   5  6D.txt
+  7     3/4   10   5  7D.txt
+  8    7/10   10   5  8D.txt
+  9     3/4   12   5  9D.txt
+ 10     3/4   12   5  10D.txt
+ 11     4/5   12   5  11D.txt
+ 12     4/5   12   5  12D.txt
+ 13     5/6   12   4  13D.txt
+ 14     6/7   12   4  14D.txt
+ 15     7/8   12   4  15D.txt
+ 16     8/9   14   4  16D.txt
+ 17     8/9   14   4  17D.txt
+ 18     8/9   14   4  18D.txt
+ 19    9/10   14   4  19D.txt
+ 20    9/10   14   4  20D.txt
+ 21    9/10   14   4  21D.txt
+ 22    9/10   14   4  22D.txt
+ 23    9/10   14   4  23D.txt
+ 24   23/25   12   5  24D.txt
+ 25   13/14   16   4  25D.txt
+ 26   13/14   16   4  26D.txt
+ 27   13/14   16   4  27D.txt
+ 28   13/14   16   4  28D.txt
+ 29   13/14   16   4  29D.txt
+ 30   13/14   16   4  30D.txt
